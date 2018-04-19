@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soft-Tech</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/roboto-webfonts.css">
+<style>
+	*{
+		margin: 0%;
+	}
+	.header__image{
+		width: 15%;
+		height: 36px;
+	}
+	.header__menu{
+		display: flex;
+		flex-direction: row;
+		color: #82CA9C;
+	/*	margin-top: 10px;
+		margin-left: 30em;*/
+
+	}
+	.headerMenu__item{
+		margin: 10px;
+		color: black;
+
+	}
+	.header__in--action{
+		width: 12em;
+		height: 5em;
+		border: solid;
+		border-color: #82CA9C;
+		color: #82CA9C;
+		background-color: #fff;
+		border-radius: 50px;
+		display: flex;
+		justify-content: center;
+	}
+	.container__principal{
+		background:url('images/homebg.jpg');
+		width: 100%;
+		height: 800px;
+		font-size: 46px;
+	}
+	.container__principal--text{
+		color: white;
+		align-self: center;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		font-family: 'robotoregular';
+	}
+	.container__principal--sobre{
+		color: white;
+		font-size: 17px;
+		align-self: center;
+		min-height: 100vh;
+/*		display: flex;
+		justify-content: center;*/
+
+	}
+	.headerMenu__item--green{
+		color: #82CA9C;
+		padding-right: 10px;
+		text-decoration: none;
+		margin-top: 0.8%; 
+
+	}
+</style>
+</head>
+<body>
+	<header class="header">
+	<img class="header__image" src="images/logo.png">
+	<nav class="header__menu">
+		<a class="headerMenu__item--green">HOME</a>
+		<a class="headerMenu__item">PRODUCT</a>
+		<a class="headerMenu__item">SERVICE</a>
+		<a class="headerMenu__item">BUSINESS</a>
+		<a class="headerMenu__item">CONTACT</a>
+	</nav>
+	<button class="header__in--action">SIGN IN</button>
+</header>
+	<main>
+	<section class="container__principal">
+		<h1 class="container__principal--text">Bring your Bing Data to Life With Soft-Tech</h1>
+		<p class="container__principal--sobre">Blue lance transforms your company's data into rich visuals for you to collect and organize so you can focus on what matters to you. Stay in the know, spot trends as they happen, and push your business further. </p>
+		<input type="text" name="Enter your email edress">
+		<button class="container__principal--Enter">Use it free</button>
+	</section>
+	</main>
+	<section>
+		<img src="images/feature-2.jpg">
+	</section>
+	<section>
+		<h1>OUR PRODUCT</h1>
+	</section>
+</body>
+</html>
