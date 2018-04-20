@@ -35,6 +35,7 @@
 		border-radius: 50px;
 		display: flex;
 		justify-content: center;
+		/*align-items: flex-start;*/
 	}
 	.container__principal{
 		background:url('images/homebg.jpg');
@@ -47,7 +48,7 @@
 		align-self: center;
 		min-height: 100vh;
 		display: flex;
-		justify-content: center;
+		justify-content: line;
 		font-family: 'robotoregular';
 	}
 	.container__principal--sobre{
@@ -57,14 +58,22 @@
 		min-height: 100vh;
 /*		display: flex;
 		justify-content: center;*/
-
 	}
 	.headerMenu__item--green{
 		color: #82CA9C;
 		padding-right: 10px;
 		text-decoration: none;
 		margin-top: 0.8%; 
-
+	}
+	.container__segunda--parte--button{
+		width: 12em;
+		height: 5em;
+		border: solid;
+		border-color: #82CA9C;
+		color: #fff;
+		background-color: #82CA9C;
+		display: flex;
+		justify-content: center;
 	}
 </style>
 </head>
@@ -89,10 +98,179 @@
 	</section>
 	</main>
 	<section>
+		<div>
 		<img src="images/feature-2.jpg">
+		</div>
+		<div>
+		<h1 class="container__segunda--parte--titulo">OUR PRODUCT</h1>
+		<p class="container__segunda--parte--tex1">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+		<p class="container__segunda--parte--tex2">Quisque volutpat mattis eros.</p>
+		<p class="container__segunda--parte--tex3">Nullam malesuada erat ut turpis</p>
+		<button class="container__segunda--parte--button">read more</button>
+		</div>
 	</section>
 	<section>
-		<h1>OUR PRODUCT</h1>
+		<div>
+			<img src="images/feature-1.jpg">
+		</div>
+		<div>
+			<h1 class="container__descricao--titulo">PRODUCT DESCRIPTIONS</h1>
+			<p class="container__descricao--tex1">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+			<p class="container__descricao--tex2">Quisque volutpat mattis eros.</p>
+			<p class="container__descricao--tex3">Nullam malesuada erat ut turpis.</p>
+			<button class="container__descricao--button">read more</button>
+		</div>
 	</section>
+	<section>
+		<h1 class="container__service--titulo">SERVICES WE PROVIDE</h1>
+		<p class="container__service">condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+		<div>
+			<img src="images/flaticon1.png" class="container__service--cima--esquerda--foto-cartao">
+			<h2 class="container__service--cima--esquerda">BRANDING</h2>
+			<p class="container__service--cima--esquerda--text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+		</div>
+		<div>
+			<img src="images/flaticon2.png" class="container__service--cima--direita--foto--lapis">
+			<h2 class="container__service--cima--direita">BRANDING</h2>
+			<p class="container__service--cima--direita--text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+		</div>
+		<div>
+			<img src="images/flaticon3.png" class="container__service--baixo--esquerda--foto--camera">
+			<h2 class="container__service--baixo--esquerda">BRANDING</h2>
+			<p class="container__service--baixo--esquerda--text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+		</div>
+		<div>
+			<img src="images/flaticon4.png" class="container__service--baixo--direita--foto--carta">
+			<h2 class="container__service--baixo--direita">BRANDING</h2>
+			<p class="container__service--baixo--direita--text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+		</div>
+	</section>
+	<section>
+		<h1 class="container__palno--titulo">Affordable Services Package</h1>
+		<P class="container__palno--sobre">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</P>
+		<div>
+			<h1 class="container__palno--basic--text">BASIC</h1>
+			<p class="container__palno--basic--preco">$30/MO</p>
+			<div>
+				<p class="container__descricao--plano--basic">20 Keyword</p>
+				<p class="container__descricao--plano--basic">No time tracking</p>
+				<p class="container__descricao--plano--basic">230 – Man hour</p>
+				<p class="container__descricao--plano--basic">Newsletter available</p>
+				<button class="container__button--plano--basic">PURCHASE</button>
+			</div>
+		</div>
+		<div>
+			<h1 class="container__palno--popular--text">POPULAR</h1>
+			<p class="container__palno--popular--preco">$60/MO</p>
+			<div>
+				<p class="container__descricao--plano--popular">20 Keyword</p>
+				<p class="container__descricao--plano--popular">No time tracking</p>
+				<p class="container__descricao--plano--popular">230 – Man hour</p>
+				<p class="container__descricao--plano--popular">Newsletter available</p>
+				<button class="container__button--plano--popular">PURCHASE</button>
+			</div>
+		</div>
+		<div>
+			<h1 class="container__palno--premier--text">PREMIER</h1>
+			<p class="container__palno--premier--preco">$90/MO</p>
+			<div>
+				<p class="container__descricao--plano--premier">20 Keyword</p>
+				<p class="container__descricao--plano--premier">No time tracking</p>
+				<p class="container__descricao--plano--premier">230 – Man hour</p>
+				<p class="container__descricao--plano--premier">Newsletter available</p>
+				<button class="container__button--plano--premier">PURCHASE</button>
+			</div>
+		</div>
+	</section>
+	<section>
+			<h1 class="container__livro--titulo">Our Business Analytics Platform</h1>
+			<p class="container__livro--sobre">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">				
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+			<div>
+				<img src="images/Livro-Icone.svg">
+				<h1 class="container__livro--text">COMMUNITY EDITION</h1>
+				<p class="container__livro--sobre--livro">Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+			</div>
+	</section>
+	<section>
+		<h1>GET IN TOUCH</h1>
+		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+		<div>
+			<form>
+			<br>
+			<input type="text" name="firstname" placeholder="First Name">
+			<br>
+			<br>
+			<input type="text" name="lastname" placeholder="Last Name">
+			<br>
+			<textarea name="message" rows="10" cols="30" placeholder="message"></textarea>
+			<br>
+			<input type="submit" value="Submit">
+			</form> 
+		</div>
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+			<p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.</p>
+			<p>T: (202) 456-1111</p>
+			<p>M: (202) 456-1212</p>
+			<img src="images/face.jpg" class="container__form--logo">
+			<img src="images/in.jpg" class="container__form--logo">
+		</div>
+	</section>
+	<footer>
+		<section>
+			<div>
+			<h1>Quick Links</h1>
+			<p> POWER BI DESKTOP <br> MOBILE <br> SEE ALL DOWNLOADS <br> POWER BI DESKTOP <br> MOBILE <br> SEE ALL DOWNLOADS</p>
+			</div>
+			<div>
+				<h1>Legal</h1>
+				<p>PRIVACY & COOKIES <br> TERMS OF USE <br> TRADEMARKS</p>
+			</div>
+			<div>
+				<h1>Information</h1>
+				<p>SUPPORT <br> DEVELOPERS <br> BLOG <br> NEWSLETTER <br> PYRAMID ANALYTICS</p>
+			</div>
+			<div>
+				<h1>Newsletter</h1>
+				<p> Insights await in your company’s data. <br> Bring them into focus with BlueLance.</p>
+				<button class="footer__button">Use it free</button>
+			</div>
+		</section>
+	</footer>
 </body>
 </html>
